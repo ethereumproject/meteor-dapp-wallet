@@ -254,7 +254,7 @@
             "texts": {
                 "ownerPaysGas": "瓦斯由钱包合约所有人支付、。",
                 "sendAmount": "您将发送 <strong>__amount__</strong>.",
-                "sendAmountEquivalent": "您将发送 <strong>__amount__</strong> 等值的 以太币,汇率参照 <a href=\"https://www.cryptocompare.com/coins/eth/overview/BTC\" target=\"_blank\">cryptocompare.com</a>.<br>目前等值于 <strong>__etherAmount__</strong>.",
+                "sendAmountEquivalent": "您将发送 <strong>__amount__</strong> 等值的 以太币,汇率参照 <a href=\"https://www.cryptocompare.com/coins/etc/overview/BTC\" target=\"_blank\">cryptocompare.com</a>.<br>目前等值于 <strong>__etherAmount__</strong>.",
                 "sendToken": "您将发送 <strong>__amount__ __symbol__</strong> 的 <strong> __name__</strong>.",
                 "overDailyLimit": "<p class=\"over-daily\">发送数量将超过今日剩余限额 __limit__ (每日限额总计 __total__)，您需要 __count__ 个其他账户确认。</p>",
                 "overDailyLimit_plural": "<p class=\"over-daily\">发送数量将超过今日剩余限额 __limit__ (每日限额总计 __total__ )，您需要 __count__ 个其他账户确认。</p>",

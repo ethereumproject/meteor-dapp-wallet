@@ -251,7 +251,7 @@
             "texts": {
                 "ownerPaysGas": "瓦斯由錢包契約擁有者支付。",
                 "sendAmount": "您將發送 <strong>__amount__</strong>.",
-                "sendAmountEquivalent": "您將發送 <strong>__amount__</strong> 等值的 ether, 匯率參照 <a href=\"https://www.cryptocompare.com/coins/eth/overview/BTC\" target=\"_blank\">cryptocompare.com</a>.<br>目前等值於 <strong>__etherAmount__</strong>.",
+                "sendAmountEquivalent": "您將發送 <strong>__amount__</strong> 等值的 ether, 匯率參照 <a href=\"https://www.cryptocompare.com/coins/etc/overview/BTC\" target=\"_blank\">cryptocompare.com</a>.<br>目前等值於 <strong>__etherAmount__</strong>.",
                 "sendToken": "您將發送 <strong>__amount__ __symbol__</strong> 的 <strong> __name__</strong>.",
                 "overDailyLimit": "<p class=\"over-daily\">發送數量將超過今日剩餘限額 __limit__ (每日限額總計 __total__)，您需要 __count__ 個其他帳戶確認。</p>",
                 "overDailyLimit_plural": "<p class=\"over-daily\">發送數量將超過今日剩餘限額 __limit__ (每日限額總計 __total__ )，您需要 __count__ 個其他帳戶確認。</p>",

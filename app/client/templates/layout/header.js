@@ -26,7 +26,6 @@ Template['layout_header'].helpers({
     'goToSend': function() {
         FlowRouter.watchPathChange();
         var address = web3.toChecksumAddress(FlowRouter.getParam('address'));
-            
         return (address)
             ? FlowRouter.path('sendFrom', {from: address})
             : FlowRouter.path('send');
@@ -45,7 +44,7 @@ Template['layout_header'].helpers({
 
         // set total balance in Mist menu, of no pending confirmation is Present
         if(typeof mist !== 'undefined' && !PendingConfirmations.findOne({operation: {$exists: true}})) {
-            mist.menu.setBadge(EthTools.formatBalance(balance, '0.00 a','ether') + ' ETH');
+            mist.menu.setBadge(EthTools.formatBalance(balance, '0.00 a','ether') + ' ETC');
         }
 
         return balance;

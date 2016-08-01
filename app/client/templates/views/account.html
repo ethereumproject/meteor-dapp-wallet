@@ -18,7 +18,7 @@
                             <button class="dapp-icon-button delete icon-trash"></button>
                         {{/if}}
                     </h1>
-                    {{> elements_balance balance=balance changeUnit=true showAllDecimals=true}}                
+                    {{> elements_balance balance=balance changeUnit=true showAllDecimals=true}}
                 {{/with}}
             </div>
 
@@ -68,7 +68,6 @@
 
                 {{#if owners}}
                     <!-- Wallet infos -->
-
                     <div class="row clear wallet-info">
                         {{#if showDailyLimit}}
                             <div class="col col-4 mobile-full">
@@ -95,7 +94,6 @@
                             {{/each}}
                         </div>
                     </div>
-
                     <!-- Account infos -->
                     <div class="account-info">
                         <h3>{{i18n "wallet.app.texts.note"}}</h3>
@@ -125,18 +123,18 @@
                         </li>
                         {{#if $eq ($.Session.get "network") "main"}}
                             <li>
-                                <a href="https://shapeshift.io/shifty.html?destination={{address}}&amp;output=ETH&amp;apiKey=ef8312d8c9b9dda64fb852e8683eac6c33123f8743ff11383fb3bab29a364c01c27343fced4e628db8d5d66d763565763f8699c0fc903ec23db31cb908a944c8" target="_popup" data-popup-width="" data-popup-height="">
+                                <a href="https://shapeshift.io/shifty.html?destination={{address}}&amp;output=ETC&amp;apiKey=eb11abbe6b66e04335305a6bb5a7e614b30e3251380445653f811b068f500bea74edaade30bcf23b99bac4bcfb9e9a4fa0c0d11ba98f024769e7607afcac038f" target="_popup" data-popup-width="" data-popup-height="">
                                     <i class="icon-bitcoin"></i>
                                     {{i18n "wallet.accounts.buttons.depositBitcoin"}}
                                 </a>
-                            </li>  
+                            </li>
                         {{/if}}
                         <li>
                             <button class="copy-to-clipboard-button">
                                 <i class="icon-docs"></i>
                                 {{i18n "wallet.accounts.buttons.copyAddress"}}
                             </button>
-                        </li>                        
+                        </li>
                         <li>
                             <button class="qrcode-button">
                                 <i class="icon-camera"></i>
@@ -150,8 +148,7 @@
                                     {{i18n "wallet.accounts.buttons.showInterface"}}
                                 </button>
                             </li>
-                        {{/if}}                    
-
+                        {{/if}}
                     </ul>
                 </nav>
             </aside>
@@ -161,9 +158,7 @@
                 {{> elements_executeContract address=address jsonInterface=jsonInterface}}
             {{/if}}
 
-
             <div class="accounts-transactions">
-
                 {{#if pendingConfirmations}}
                     <h2>{{i18n 'wallet.transactions.pendingConfirmations'}}</h2>
 
@@ -178,8 +173,7 @@
 
                 {{#with customContract}}
                     <h2>{{i18n 'wallet.events.latest'}}</h2>
-                    <br>
-                    
+                    <br />
                     <div>
                         <input type="checkbox" id="watch-events-checkbox" class="toggle-watch-events" checked="{{TemplateVar.get 'watchEvents'}}">
                         <label for="watch-events-checkbox">{{i18n "wallet.contracts.buttons.watchContractEvents"}}</label>
@@ -190,7 +184,6 @@
                             {{> spinner}}
                         </div>
                     {{/if}}
-            
                     {{> elements_event_table ids=contractEvents}}
                 {{/with}}
             </div>
