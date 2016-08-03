@@ -1,5 +1,2 @@
 app/browser
-app/packages
-app/packages/*
 build/
-packages/
