@@ -39,10 +39,10 @@ mrt:qrcodesvg
 sacha:spin
 frozeman:global-notifications
 agnito:simptip
-ethereum:elements
-ethereum:web3
-ethereum:blocks
-ethereum:accounts
-ethereum:dapp-styles
+etc:elements
+etc:web3
+etc:blocks
+etc:accounts
+etc:dapp-styles
 numeral:numeral
 jrudio:bluebird
