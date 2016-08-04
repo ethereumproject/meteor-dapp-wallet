@@ -26,10 +26,7 @@ FlowRouter.triggers.enter([function(){
     $(window).scrollTop(0);
 }, updateMistMenu]);
 
-
-
 // ROUTES
-
 /**
 The receive route, showing the wallet overview
 
@@ -173,8 +170,6 @@ FlowRouter.route('/account/new', {
         });
     }
 });
-
-
 
 /**
 The account route.
