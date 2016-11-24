@@ -43,7 +43,7 @@ ethereumclassic:elements
 ethereumclassic:web3
 ethereumclassic:blocks
 ethereumclassic:accounts
-ethereumclassic:dapp-styles
+ethereumclassic:dapp-styles@0.5.7
 numeral:numeral
 jrudio:bluebird
 ethereumclassic:tools
